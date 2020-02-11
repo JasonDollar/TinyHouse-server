@@ -1,5 +1,5 @@
 interface Listing {
-  id: number;
+  id: string;
   title: string;
   image: string;
   address: string;
@@ -12,7 +12,7 @@ interface Listing {
 
 export const listings: Listing[] = [
   {
-    id: 1,
+    id: '1',
     title: 'Clean and fully furnished apartament',
     image: 'https://www.lotustherm.ro/images/phocagallery/ApartamentVIP/thumbs/phoca_thumb_l_apartament%20vip%20-%207.jpg',
     address: '3020 Scotchmere Dr W, Toronto, ON, Canada',
@@ -21,9 +21,9 @@ export const listings: Listing[] = [
     numOfBeds: 2,
     numOfBaths: 1,
     rating: 5,
-  }
-  ,{
-    id: 2,
+  },
+  {
+    id: '2',
     title: 'Luxorious home with a pool',
     image: 'https://i.ytimg.com/vi/3Ob_uk0cJFI/maxresdefault.jpg',
     address: '3020 Scotchmere Dr W, Toronto, ON, Canada',
@@ -32,9 +32,9 @@ export const listings: Listing[] = [
     numOfBeds: 5,
     numOfBaths: 3,
     rating: 5,
-  }
-  ,{
-    id: 3,
+  },
+  {
+    id: '3',
     title: 'Old house',
     image: 'https://1.bp.blogspot.com/_c_8fUslYOHw/TM_ofisDgAI/AAAAAAAAB00/mAgtBtubPAg/s1600/bucatarie1.jpg',
     address: '3020 Scotchmere Dr W, Toronto, ON, Canada',
@@ -43,5 +43,5 @@ export const listings: Listing[] = [
     numOfBeds: 1,
     numOfBaths: 1,
     rating: 2,
-  }
+  },
 ]
