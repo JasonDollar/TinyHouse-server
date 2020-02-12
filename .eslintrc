@@ -44,7 +44,8 @@
       // "react/jsx-boolean-value": ["off"],
       "prefer-arrow-callback": ["off"],
       "prefer-template": ["off"],
-      "no-underscore-dangle": ["off"]
+      "no-underscore-dangle": ["off"],
+      "import/prefer-default-export": ["off"]
       // "react/jsx-indent": ["error"],
       // "react/jsx-one-expression-per-line":["off"],
       // "react/prop-types":["off"], /*turned it off when using typescript*/
